@@ -1,0 +1,128 @@
+<!doctype>
+<html>
+	<head>
+		<title>Submit</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="nftmusic.css"/>
+		<link rel="stylesheet" type="text/css" href="../hrefs/w3.css"/>
+		<link rel="stylesheet" type="text/css" href="../hrefs/font-awesome-4.7.0/css/font-awesome.min.css"/>
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	
+		<style type="text/css">
+		
+		</style>
+		
+		
+		<!-- Loaded jQuery -->	
+		<script src="../hrefs/jquery-1.11.3.min.js"></script>
+	</head>
+	
+	<div id="wrapper">
+	<body>	
+		<div id="topeaderWrapper">
+			<div id="topheader">
+				<!--Top most heading-->
+				<p class="gospelempire"><b>GospelEmpire</b></p>	
+				<p class="talent"><b>Reaching across BORDERS</b></p>		<!-- -->				
+			</div>
+			</div>
+			
+			<header>
+				<!-- Drop down tabs on top left side of top big image--> 
+				<nav class="dropdownmenus">		
+					<ul>				
+						<li><a  title="Home" href="../home/home.html">Home</a></li>
+						<li><a title="More Music" href="../music/music.html">Music</a></li>
+						<li><a title=" More Poetry" href="../poetry/poetry.html">Poetry</a></li>
+						<li><a title="Upcoming Events" href="../events/events.html">Events</a></li>
+						<li><a title="Publish With Us" class="active" href="../upload/upload.html">Upload</a></li>
+						<ul class="ulSide">
+							<li><a title="About Us" href="../aboutUs/aboutUs.html">About Us</a></li>
+							<li><a title="Login" href="../login/login.html">Login</a></li>
+						</ul>
+					</ul>
+					
+					<!-- Space between Big Top slide Image and content below-->	
+					<div  class="clearspace"></div>
+					
+				</nav>
+			</header>
+			
+			
+			
+				
+					
+				
+				
+		<div  class="clearspacebtwnTopAndMidBody"></div>
+		<!-- Start Mid table content -->
+	
+				<button class="sortBy">
+					<ul class="content clearfix">
+						<li class="dropdown">
+							<span class="playDownload1" style="outline: none; margin-left:12; ">Submit as: </span>
+							<ul class="sub-menu">
+								<li class="dropdown">
+									<span class="playDownload2" style="outline: none;">Your first time &#9755;</span>
+									<ul class="sub-menu">
+										<li><a href="../ftmusic/ftmusic.html">Music</a></li>
+										<li><a href="../ftpoetry/ftpoetry.html" style="border-bottom:none;">Poetry</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<span class="playDownload2" style="outline: none;">NOT first time &#9755;</span>
+									<ul class="sub-menu">
+										<li><a href="../nftmusic/nftmusic.html">Music</a></li>
+										<li><a href="../nftpoetry/nftpoetry.html" style="border-bottom:none;">Poetry</a></li>
+									</ul>
+								</li>
+								<li><a href="../changeArtistProfile/changeArtistProfile.html" style="border-bottom:none;">Change Profile</a></li>
+							</ul>
+						</li>
+					</ul>
+				</button>
+		
+		<form action="gospelempire@gmail.com" class="loginSignupForm" method="post" onsubmit="submited()" id="formSubmit">
+			<h3><b>Not Your First Time (MUSIC)</b></h3><br>
+			<label>Artist’s name </label><input class="login" type="text" maxlength="50" autocomplete="on" id="artistName" name="artistName" autofocus required>
+			<label>Featured artists (if any) </label><input class="login" type="text" maxlength="50" autocomplete="on" id="feature" name="feature" autofocus>
+			<label>Song title </label><input class="login" type="text" maxlength="50" autocomplete="on" id="songTitle" name="songTitle" autofocus required>
+			<label>Album title (if from album) </label><input class="login" type="text" maxlength="50" autocomplete="on" id="albumTitle" name="albumTitle" autofocus>
+			<label>Genre </label><input class="login" type="text" maxlength="50" autocomplete="on" id="genre" name="genre" autofocus>
+			<label>Album/song Art Cover<br><i style="font-family:Comic Sans MS; font-size:12; padding-left:10;">*Dimensions between (500px by 500px) & (1300px by 1300px)</i><br><i style="font-family:Comic Sans MS; font-size:12; padding-left:10;">*.jpg or .png format</i></label><br><input name="art" id="albumArt" value="albumArt" class="login" type="file" required/><br><br>
+			<label>Song<br><i style="font-family:Comic Sans MS; font-size:12; padding-left:10;">*mp3 format</i></label><br><input name="art" id="albumArt" value="albumArt" class="login" type="file" required/><br><br>
+			<label>Your Email</label><input class="login" type="email" maxlength="50" autocomplete="on" id="email" name="email"  style="margin-bottom:0;" autofocus required><br><i style="font-family:Comic Sans MS; font-size:12; padding-left:10;">*For our feedback</i><br><br><br>
+			
+			<input type="submit" formenctype="multipart/form-data" value="Submit" class="playDownload" style="padding: 5px 12px;"><i style="font-family:Comic Sans MS; font-size:12; padding-left:10;">Check email for confirmation</i><br><br>
+			<input type="button" onclick="myFunction()" value="Reset" class="playDownload" style="padding: 5px 12px;"><br><br>
+			<br><a href="../changeArtistProfile/changeArtistProfile.html" class="forgot">Change your profile?</a>
+			<br><br><a href="../termsAndConditionsOfSubmission/termsAndConditionsOfSubmission.html" class="forgot">Terms & Conditions</a>
+			
+		</form>
+	
+		<!-- End Mid table content -->
+		<div class="clearfix"></div>	
+			
+			
+			
+			
+			
+			
+			
+			<!--FOOTER-->
+			<div class="footer101">
+				
+				<li class="styleMe2">&#169;Copyright - gospelempire  2017. All Rights Reserved.</li>
+				
+			</div>
+			
+			
+			
+			 
+			
+		<!-- Loaded JavaScript-->	
+		<script src="nftmusic.js"></script>
+	</body>
+	 </div><!--wrapper end -->
+</html>
